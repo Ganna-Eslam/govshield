@@ -13,6 +13,11 @@ from validate import validate
 def protect(text):
     try:
         dets = detect(text)
+
+        # الأسرار التقنية بتتمنع ومبتتحولش لـToken
+        if any(d.type == "SECRET" for d in dets):
+            return {"status": "blocked", "reason": "secret detected"}
+
         safe, mapping = mask(text, dets)
         ok, reason = validate(safe, mapping)
         if not ok:
