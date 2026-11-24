@@ -1,0 +1,360 @@
+{"text": "بيانات العميل: لمياء عبدالعزيز - 30909112542059 - ahmed07@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 30}, {"type": "NID", "start": 33, "end": 47}, {"type": "EMAIL", "start": 50, "end": 72}]}
+{"text": "ابعت الرد على khaled42@yahoo.com وخلي آية عبدالعزيز إبراهيم يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 32}, {"type": "PERSON", "start": 38, "end": 59}]}
+{"text": "الموظفة شروق حسن رقمها 010 3552 1570 وإيميلها mona1@company.com.eg", "entities": [{"type": "PERSON", "start": 8, "end": 16}, {"type": "PHONE", "start": 23, "end": 36}, {"type": "EMAIL", "start": 46, "end": 66}]}
+{"text": "الطقس النهاردة حلو ونور الشمس جميلة", "entities": []}
+{"text": "ابعت الرد على khaled@company.com.eg وخلي نور حسن يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 35}, {"type": "PERSON", "start": 41, "end": 48}]}
+{"text": "الرقم القومي للمريض 30105061696856", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "المواطن يوسف السيد بيشتكي من تأخر الطلب، كلمه على 015 7976 4381", "entities": [{"type": "PERSON", "start": 8, "end": 18}, {"type": "PHONE", "start": 50, "end": 63}]}
+{"text": "Here is my config: AKIAILU2DWA5IMY96505", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "رقم الشحنة 123456789012 وصل المخزن", "entities": []}
+{"text": "جيهان سليمان وبهاء حسن حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 12}, {"type": "PERSON", "start": 14, "end": 22}]}
+{"text": "Here is my config: password: bOMZpTktJa", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "حسابي البنكي EG79 5523 1243 2921 2779 9799 5527 1 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "تم التحويل على البطاقة 4828258673622664 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 39}]}
+{"text": "تم التحويل على البطاقة 5201533688444310 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 39}]}
+{"text": "شروق إبراهيم ولمياء إبراهيم حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 12}, {"type": "PERSON", "start": 14, "end": 27}]}
+{"text": "كلمني على 01011024819 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "اسمه عمر إبراهيم سليمان وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 23}]}
+{"text": "الإعداد اللي عندي هو sk-u7W7eaDNKgeInGqi7w4e4pxskC1ITtNZ وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "ابعت الرد على omar.hassan@gmail.com وخلي أحمد عبدالله يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 35}, {"type": "PERSON", "start": 41, "end": 53}]}
+{"text": "تم التحويل على البطاقة 5949-5888-7947-0554 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "Please summarize the complaint from Sara Ibrahim, phone 011 4004 9915", "entities": [{"type": "PERSON", "start": 36, "end": 48}, {"type": "PHONE", "start": 56, "end": 69}]}
+{"text": "الموظفة منى عبدالعزيز رقمها 015 4679 9702 وإيميلها sara_ali9@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 21}, {"type": "PHONE", "start": 28, "end": 41}, {"type": "EMAIL", "start": 51, "end": 72}]}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone 01044206788", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "يوسف السيد محمد وياسين سليمان حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 15}, {"type": "PERSON", "start": 17, "end": 29}]}
+{"text": "حسابي البنكي EG309421047095214562328588424 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "My card number is 4178 1080 1326 7736 and my IBAN is EG460260647468723430980500978", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "إبراهيم محمد مصطفى وريم حسن حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 18}, {"type": "PERSON", "start": 20, "end": 27}]}
+{"text": "My card number is 5064 0391 0651 8012 and my IBAN is EG89 0462 2656 7661 8251 2868 2300 4", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 89}]}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "ابعت الرد على mona8@gmail.com وخلي بسمة محمد يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 29}, {"type": "PERSON", "start": 35, "end": 44}]}
+{"text": "ابعت الرد على nour86@yahoo.com وخلي مصطفى فتحي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 30}, {"type": "PERSON", "start": 36, "end": 46}]}
+{"text": "المواطن مازن السيد بيشتكي من تأخر الطلب، كلمه على 010 5415 6676", "entities": [{"type": "PERSON", "start": 8, "end": 18}, {"type": "PHONE", "start": 50, "end": 63}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "My card number is 4120 4556 1100 2257 and my IBAN is EG617941552166746762120216979", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "حسابي البنكي EG70 3334 6800 7229 0349 4466 5743 7 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "Send the invoice to ahmed853@outlook.com for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 40}, {"type": "PERSON", "start": 45, "end": 58}]}
+{"text": "ابعت الرد على nour@gmail.com وخلي ميرنا فتحي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 28}, {"type": "PERSON", "start": 34, "end": 44}]}
+{"text": "المواطن سارة حسن حسن بيشتكي من تأخر الطلب، كلمه على 01027588425", "entities": [{"type": "PERSON", "start": 8, "end": 20}, {"type": "PHONE", "start": 52, "end": 63}]}
+{"text": "Please summarize the complaint from Omar Hassan, phone +201510143888", "entities": [{"type": "PERSON", "start": 36, "end": 47}, {"type": "PHONE", "start": 55, "end": 68}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "ابعت الرد على omar.hassan303@gmail.com وخلي جيهان علي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 38}, {"type": "PERSON", "start": 44, "end": 53}]}
+{"text": "رقم الطلب 1234567890 بتاع الشحنة", "entities": []}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "كلمني على 01080339740 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "حلل شكوى أسامة إبراهيم، رقمه القومي ٣٠١٠٥٠٨٢٠١٠٣٦٩، وتليفونه ٠١٠١٧٩٨٠٨٩٣", "entities": [{"type": "PERSON", "start": 9, "end": 22}, {"type": "NID", "start": 36, "end": 50}, {"type": "PHONE", "start": 61, "end": 72}]}
+{"text": "الرقم القومي للمريض 3070 9151 0982 59", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "كلمني على 012 2351 1615 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "Here is my config: AKIAVH3EJOZ9XFZAQ8H3", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "كلمني على 01065604945 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "الاجتماع الساعة 5 يوم الخميس في القاعة الكبيرة", "entities": []}
+{"text": "المواطن ميرنا علي بيشتكي من تأخر الطلب، كلمه على 012 4518 7053", "entities": [{"type": "PERSON", "start": 8, "end": 17}, {"type": "PHONE", "start": 49, "end": 62}]}
+{"text": "الإعداد اللي عندي هو sk-TUEHAXA0KeiuPeCDRHwi41XJOLlX9iBG وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "الرقم القومي للمريض ٣٠١٠٣٢٤٠٢١٨٣٦٦", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "حلل شكوى كريم محمد، رقمه القومي 28706011240268، وتليفونه 01077589178", "entities": [{"type": "PERSON", "start": 9, "end": 18}, {"type": "NID", "start": 32, "end": 46}, {"type": "PHONE", "start": 57, "end": 68}]}
+{"text": "My card number is 5798-6872-7743-4873 and my IBAN is EG42 3471 4345 5812 2362 3166 5876 0", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 89}]}
+{"text": "اسمه ميرنا إبراهيم وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 18}]}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "اسمه خالد محمد وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 14}]}
+{"text": "حلل شكوى نور حسن، رقمه القومي 30502140736968، وتليفونه +201545352181", "entities": [{"type": "PERSON", "start": 9, "end": 16}, {"type": "NID", "start": 30, "end": 44}, {"type": "PHONE", "start": 55, "end": 68}]}
+{"text": "الإعداد اللي عندي هو sk-ZaHgbyjdQdmrWYksRqj1dSYsnWIcw0Cg وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "Send the invoice to khaled937@company.com.eg for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 44}, {"type": "PERSON", "start": 49, "end": 62}]}
+{"text": "الرقم القومي للمريض 3060 1202 3396 21", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "Please summarize the complaint from Sara Ibrahim, phone 01196627828", "entities": [{"type": "PERSON", "start": 36, "end": 48}, {"type": "PHONE", "start": 56, "end": 67}]}
+{"text": "بيانات العميل: دينا علي - 2900 7030 4623 44 - sara_ali57@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 23}, {"type": "NID", "start": 26, "end": 43}, {"type": "EMAIL", "start": 46, "end": 71}]}
+{"text": "الرقم القومي للمريض ٢٦٨٠٢١٧٣٥٨٠٥٩٢", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "الرقم القومي للمريض ٣٠٣١١١٣٣٢٢٩٤٦٦", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "Please summarize the complaint from Ahmed Mohamed, phone 011-1722-3320", "entities": [{"type": "PERSON", "start": 36, "end": 49}, {"type": "PHONE", "start": 57, "end": 70}]}
+{"text": "حلل شكوى بهاء عبدالعزيز، رقمه القومي ٢٧١٠١٢٥٢٥٤١٣٨٣، وتليفونه ٠١٥٠٢٤١٠٣٨٦", "entities": [{"type": "PERSON", "start": 9, "end": 23}, {"type": "NID", "start": 37, "end": 51}, {"type": "PHONE", "start": 62, "end": 73}]}
+{"text": "الموظفة سارة عبدالعزيز رقمها ٠١٥٥٦٤٨٢٣٦٦ وإيميلها nour9@company.com.eg", "entities": [{"type": "PERSON", "start": 8, "end": 22}, {"type": "PHONE", "start": 29, "end": 40}, {"type": "EMAIL", "start": 50, "end": 70}]}
+{"text": "حسابي البنكي EG58 7966 0334 1918 2553 7147 8596 9 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "ابعت الرد على ahmed@yahoo.com وخلي ياسين فتحي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 29}, {"type": "PERSON", "start": 35, "end": 45}]}
+{"text": "تم التحويل على البطاقة 5590-2771-6701-4504 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "الموظفة محمود مصطفى سليمان رقمها 01567066253 وإيميلها omar.hassan72@gmail.com", "entities": [{"type": "PERSON", "start": 8, "end": 26}, {"type": "PHONE", "start": 33, "end": 44}, {"type": "EMAIL", "start": 54, "end": 77}]}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "Send the invoice to khaled252@gmail.com for Sara Ibrahim", "entities": [{"type": "EMAIL", "start": 20, "end": 39}, {"type": "PERSON", "start": 44, "end": 56}]}
+{"text": "بيانات العميل: أسامة إبراهيم - 3091 0073 0124 06 - khaled575@outlook.com", "entities": [{"type": "PERSON", "start": 15, "end": 28}, {"type": "NID", "start": 31, "end": 48}, {"type": "EMAIL", "start": 51, "end": 72}]}
+{"text": "Send the invoice to nour175@outlook.com for Omar Hassan", "entities": [{"type": "EMAIL", "start": 20, "end": 39}, {"type": "PERSON", "start": 44, "end": 55}]}
+{"text": "المواطن نيرة سليمان بيشتكي من تأخر الطلب، كلمه على ٠١٢٩٧٨٢٠٧١٥", "entities": [{"type": "PERSON", "start": 8, "end": 19}, {"type": "PHONE", "start": 51, "end": 62}]}
+{"text": "كلمني على +201176724238 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "الرقم القومي للمريض 2590 6200 4947 98", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "الاجتماع الساعة 5 يوم الخميس في القاعة الكبيرة", "entities": []}
+{"text": "الموظفة عبدالرحمن علي مصطفى رقمها 012 6185 3747 وإيميلها ahmed@yahoo.com", "entities": [{"type": "PERSON", "start": 8, "end": 27}, {"type": "PHONE", "start": 34, "end": 47}, {"type": "EMAIL", "start": 57, "end": 72}]}
+{"text": "رقم الطلب 1234567890 بتاع الشحنة", "entities": []}
+{"text": "Send the invoice to khaled337@company.com.eg for Mona Ali", "entities": [{"type": "EMAIL", "start": 20, "end": 44}, {"type": "PERSON", "start": 49, "end": 57}]}
+{"text": "الإعداد اللي عندي هو password: sW7Cyz0QbE وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "حسابي البنكي EG074657871331509839301031051 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "الطقس النهاردة حلو ونور الشمس جميلة", "entities": []}
+{"text": "الاجتماع الساعة 5 يوم الخميس في القاعة الكبيرة", "entities": []}
+{"text": "الإعداد اللي عندي هو sk-3jCIEwvJWIyD7u3mSpKyo2XAcuVET6Zy وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone 010-4436-9957", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 71}]}
+{"text": "بيانات العميل: جيهان فتحي - 29311210706513 - mona262@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 25}, {"type": "NID", "start": 28, "end": 42}, {"type": "EMAIL", "start": 45, "end": 67}]}
+{"text": "My card number is 4130-5548-8510-2724 and my IBAN is EG816149331637351609177982708", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "الرقم القومي للمريض 2520 9262 7353 65", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "Please summarize the complaint from Omar Hassan, phone 01047735866", "entities": [{"type": "PERSON", "start": 36, "end": 47}, {"type": "PHONE", "start": 55, "end": 66}]}
+{"text": "ابعت الرد على ahmed@yahoo.com وخلي نيرة حسن عبدالله يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 29}, {"type": "PERSON", "start": 35, "end": 51}]}
+{"text": "تم التحويل على البطاقة 5546 6590 5151 8648 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "اسمه بسمة مصطفى وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 15}]}
+{"text": "آية حسن ولمياء علي علي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 7}, {"type": "PERSON", "start": 9, "end": 22}]}
+{"text": "اسمه ياسين علي إبراهيم وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 22}]}
+{"text": "كلمني على 01223986800 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "تم التحويل على البطاقة 5002 9218 5156 9156 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "الموظفة لمياء حسن رقمها 011 5135 3465 وإيميلها omar.hassan71@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 17}, {"type": "PHONE", "start": 24, "end": 37}, {"type": "EMAIL", "start": 47, "end": 72}]}
+{"text": "الإعداد اللي عندي هو كلمة السر: HMGmVzsPd وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "الإعداد اللي عندي هو sk-hDStSz8rGIFCfMc4BVuMqbfo9R13KL8b وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "الرقم القومي للمريض 27310181062045", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "حلل شكوى دينا السيد، رقمه القومي ٢٥٤٠٨١٢٢٠٦٤٧٤٣، وتليفونه 01513695944", "entities": [{"type": "PERSON", "start": 9, "end": 19}, {"type": "NID", "start": 33, "end": 47}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "الموظفة بسمة سليمان رقمها 012 8669 3465 وإيميلها sara_ali2@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 19}, {"type": "PHONE", "start": 26, "end": 39}, {"type": "EMAIL", "start": 49, "end": 70}]}
+{"text": "بيانات العميل: بهاء محمد - ٢٩٥١١١١١٠٢٠٤٧٢ - sara_ali@gmail.com", "entities": [{"type": "PERSON", "start": 15, "end": 24}, {"type": "NID", "start": 27, "end": 41}, {"type": "EMAIL", "start": 44, "end": 62}]}
+{"text": "المواطن سارة مصطفى بيشتكي من تأخر الطلب، كلمه على 01007661771", "entities": [{"type": "PERSON", "start": 8, "end": 18}, {"type": "PHONE", "start": 50, "end": 61}]}
+{"text": "المبلغ المطلوب 5000 جنيه والباقي 12000", "entities": []}
+{"text": "حمزة سليمان وأسامة محمد فتحي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 11}, {"type": "PERSON", "start": 13, "end": 28}]}
+{"text": "اسمه أسامة إبراهيم سليمان وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 25}]}
+{"text": "كلمني على 010-2567-4680 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "المبلغ المطلوب 5000 جنيه والباقي 12000", "entities": []}
+{"text": "حلل شكوى مصطفى عبدالله علي، رقمه القومي ٢٩٨٠١٠٨١٣٠٩٢٣٢، وتليفونه ٠١٠٩٣٧٤٥٢٩٩", "entities": [{"type": "PERSON", "start": 9, "end": 26}, {"type": "NID", "start": 40, "end": 54}, {"type": "PHONE", "start": 65, "end": 76}]}
+{"text": "كلمني على 01154599102 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "تم التحويل على البطاقة 5241 9138 0003 0753 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "الإعداد اللي عندي هو كلمة السر: 06UKuKMXR وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "Send the invoice to ahmed1@outlook.com for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 38}, {"type": "PERSON", "start": 43, "end": 56}]}
+{"text": "المبلغ المطلوب 5000 جنيه والباقي 12000", "entities": []}
+{"text": "الموظفة ريم سليمان رقمها 010-9749-9309 وإيميلها mona230@gmail.com", "entities": [{"type": "PERSON", "start": 8, "end": 18}, {"type": "PHONE", "start": 25, "end": 38}, {"type": "EMAIL", "start": 48, "end": 65}]}
+{"text": "حسابي البنكي EG749828073741672434266179796 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "ابعت الرد على omar.hassan289@gmail.com وخلي حمزة إبراهيم يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 38}, {"type": "PERSON", "start": 44, "end": 56}]}
+{"text": "الطقس النهاردة حلو ونور الشمس جميلة", "entities": []}
+{"text": "Send the invoice to mona6@yahoo.com for Khaled Mostafa", "entities": [{"type": "EMAIL", "start": 20, "end": 35}, {"type": "PERSON", "start": 40, "end": 54}]}
+{"text": "كريم حسن وأسامة محمد حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 8}, {"type": "PERSON", "start": 10, "end": 20}]}
+{"text": "ابعت الرد على sara_ali971@outlook.com وخلي نيرة عبدالله مصطفى يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 37}, {"type": "PERSON", "start": 43, "end": 61}]}
+{"text": "ابعت الرد على nour@outlook.com وخلي وليد عبدالله يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 30}, {"type": "PERSON", "start": 36, "end": 48}]}
+{"text": "الإعداد اللي عندي هو sk-PYv0iQS18VR6HfPQBGxbxtl8nv8XFmoi وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "الموظفة جيهان إبراهيم رقمها 015-2890-0287 وإيميلها mona@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 21}, {"type": "PHONE", "start": 28, "end": 41}, {"type": "EMAIL", "start": 51, "end": 67}]}
+{"text": "Here is my config: AKIAPAAFH5JF6EGQO3SQ", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "My card number is 5063 2424 1541 5208 and my IBAN is EG174361103712938700516271361", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "Send the invoice to khaled@company.com.eg for Khaled Mostafa", "entities": [{"type": "EMAIL", "start": 20, "end": 41}, {"type": "PERSON", "start": 46, "end": 60}]}
+{"text": "اسمه نيرة عبدالله وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 17}]}
+{"text": "بيانات العميل: إبراهيم علي السيد - ٣٠٥٠٥٠٤٠٩١٢٦٧٨ - ahmed@gmail.com", "entities": [{"type": "PERSON", "start": 15, "end": 32}, {"type": "NID", "start": 35, "end": 49}, {"type": "EMAIL", "start": 52, "end": 67}]}
+{"text": "المواطن دينا عبدالعزيز علي بيشتكي من تأخر الطلب، كلمه على 01213975523", "entities": [{"type": "PERSON", "start": 8, "end": 26}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "Send the invoice to mona940@yahoo.com for Sara Ibrahim", "entities": [{"type": "EMAIL", "start": 20, "end": 37}, {"type": "PERSON", "start": 42, "end": 54}]}
+{"text": "محمود حسن ونيرة السيد سليمان حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 9}, {"type": "PERSON", "start": 11, "end": 28}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "بيانات العميل: أسامة محمد - 2720 4240 7952 05 - nour7@outlook.com", "entities": [{"type": "PERSON", "start": 15, "end": 25}, {"type": "NID", "start": 28, "end": 45}, {"type": "EMAIL", "start": 48, "end": 65}]}
+{"text": "بيانات العميل: سيف محمد - 30403133341459 - mona7@yahoo.com", "entities": [{"type": "PERSON", "start": 15, "end": 23}, {"type": "NID", "start": 26, "end": 40}, {"type": "EMAIL", "start": 43, "end": 58}]}
+{"text": "تم التحويل على البطاقة 4395 5905 9929 3789 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "اسمه منى مصطفى وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 14}]}
+{"text": "My card number is 4262-1745-9615-8657 and my IBAN is EG497809134316117240050455623", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "بيانات العميل: أسامة سليمان - 30111083109859 - nour@outlook.com", "entities": [{"type": "PERSON", "start": 15, "end": 27}, {"type": "NID", "start": 30, "end": 44}, {"type": "EMAIL", "start": 47, "end": 63}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "اسمه هبة عبدالعزيز وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 18}]}
+{"text": "ابعت الرد على omar.hassan86@company.com.eg وخلي أحمد علي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 42}, {"type": "PERSON", "start": 48, "end": 56}]}
+{"text": "تم التحويل على البطاقة 5870 5685 6624 6288 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "حسابي البنكي EG325175183046990139837354033 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "Please summarize the complaint from Ahmed Mohamed, phone 010 9190 1581", "entities": [{"type": "PERSON", "start": 36, "end": 49}, {"type": "PHONE", "start": 57, "end": 70}]}
+{"text": "الإعداد اللي عندي هو password: WkrC5Gj1Bf وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "ابعت الرد على ahmed5@yahoo.com وخلي محمود سليمان يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 30}, {"type": "PERSON", "start": 36, "end": 48}]}
+{"text": "الموظفة إبراهيم عبدالله رقمها +201226221890 وإيميلها nour7@company.com.eg", "entities": [{"type": "PERSON", "start": 8, "end": 23}, {"type": "PHONE", "start": 30, "end": 43}, {"type": "EMAIL", "start": 53, "end": 73}]}
+{"text": "بيانات العميل: جيهان السيد - ٢٥٤١١٢١٢٦٥٨٢٠٢ - ahmed1@yahoo.com", "entities": [{"type": "PERSON", "start": 15, "end": 26}, {"type": "NID", "start": 29, "end": 43}, {"type": "EMAIL", "start": 46, "end": 62}]}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "حسابي البنكي EG96 0307 0534 5786 1035 7972 7985 5 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "الرقم القومي للمريض ٢٦١١٢٢٥١١٧٠٦٥٣", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "Send the invoice to sara_ali188@yahoo.com for Omar Hassan", "entities": [{"type": "EMAIL", "start": 20, "end": 41}, {"type": "PERSON", "start": 46, "end": 57}]}
+{"text": "Send the invoice to mona3@yahoo.com for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 35}, {"type": "PERSON", "start": 40, "end": 53}]}
+{"text": "بيانات العميل: آية فتحي - 28803222955719 - khaled65@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 23}, {"type": "NID", "start": 26, "end": 40}, {"type": "EMAIL", "start": 43, "end": 66}]}
+{"text": "شروق حسن فتحي ووليد فتحي علي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 13}, {"type": "PERSON", "start": 15, "end": 28}]}
+{"text": "الموظفة أحمد السيد حسن رقمها 01081960013 وإيميلها khaled@yahoo.com", "entities": [{"type": "PERSON", "start": 8, "end": 22}, {"type": "PHONE", "start": 29, "end": 40}, {"type": "EMAIL", "start": 50, "end": 66}]}
+{"text": "My card number is 5287-4315-2742-0541 and my IBAN is EG46 3296 6851 6122 7530 4637 4549 9", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 89}]}
+{"text": "اسمه عمر حسن عبدالعزيز وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 22}]}
+{"text": "Please summarize the complaint from Ahmed Mohamed, phone +201233555439", "entities": [{"type": "PERSON", "start": 36, "end": 49}, {"type": "PHONE", "start": 57, "end": 70}]}
+{"text": "خالد محمد وجيهان السيد حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 9}, {"type": "PERSON", "start": 11, "end": 22}]}
+{"text": "الإعداد اللي عندي هو password: n12ujfTp9w وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "My card number is 4872148951343320 and my IBAN is EG41 0379 1769 3676 3201 6328 7083 1", "entities": [{"type": "CARD", "start": 18, "end": 34}, {"type": "IBAN", "start": 50, "end": 86}]}
+{"text": "Here is my config: password: hQwCp5PN6N", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "Here is my config: sk-PmW9susPd6XfPKoIVU27c66lA41l76c1", "entities": [{"type": "SECRET", "start": 19, "end": 54}]}
+{"text": "Please summarize the complaint from Sara Ibrahim, phone 01584801845", "entities": [{"type": "PERSON", "start": 36, "end": 48}, {"type": "PHONE", "start": 56, "end": 67}]}
+{"text": "اسمه عبدالرحمن محمد وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 19}]}
+{"text": "Here is my config: password: OaSkfF2BPY", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "الموظفة وليد مصطفى علي رقمها ٠١٠٤٦٩٦٣٢٥٩ وإيميلها omar.hassan2@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 22}, {"type": "PHONE", "start": 29, "end": 40}, {"type": "EMAIL", "start": 50, "end": 74}]}
+{"text": "الإعداد اللي عندي هو sk-tKNdN9Vg8WnOnqQfkplJekaACSMEscos وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "تم التحويل على البطاقة 4607 3375 4330 3650 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "الموظفة دينا علي رقمها ٠١١١٠٠٣٢٣٦٥ وإيميلها nour@company.com.eg", "entities": [{"type": "PERSON", "start": 8, "end": 16}, {"type": "PHONE", "start": 23, "end": 34}, {"type": "EMAIL", "start": 44, "end": 63}]}
+{"text": "كلمني على 011 1473 7996 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "Order number 123456789012 shipped yesterday", "entities": []}
+{"text": "ابعت الرد على ahmed30@gmail.com وخلي ميرنا عبدالعزيز عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 31}, {"type": "PERSON", "start": 37, "end": 62}]}
+{"text": "لمياء إبراهيم ووليد عبدالعزيز السيد حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 13}, {"type": "PERSON", "start": 15, "end": 35}]}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "ابعت الرد على omar.hassan51@outlook.com وخلي محمد عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 39}, {"type": "PERSON", "start": 45, "end": 59}]}
+{"text": "تم التحويل على البطاقة 5010 3930 8705 9321 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "بيانات العميل: نور فتحي - 27410071706088 - omar.hassan159@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 23}, {"type": "NID", "start": 26, "end": 40}, {"type": "EMAIL", "start": 43, "end": 72}]}
+{"text": "حلل شكوى إيمان السيد، رقمه القومي ٣٠٨١٢٢٤٣٥٩٣٧٣٤، وتليفونه +201506562729", "entities": [{"type": "PERSON", "start": 9, "end": 20}, {"type": "NID", "start": 34, "end": 48}, {"type": "PHONE", "start": 59, "end": 72}]}
+{"text": "اسمه نيرة عبدالله وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 17}]}
+{"text": "مصطفى مصطفى وإبراهيم عبدالعزيز حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 11}, {"type": "PERSON", "start": 13, "end": 30}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "تم التحويل على البطاقة 4812-1913-6193-9900 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "الإعداد اللي عندي هو password: 7yyA9YRu9J وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "My card number is 4753-5560-9320-4891 and my IBAN is EG546423536937854777252287280", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "المواطن خالد عبدالعزيز حسن بيشتكي من تأخر الطلب، كلمه على ٠١١٥٣٥٨٤١٤٣", "entities": [{"type": "PERSON", "start": 8, "end": 26}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "الإعداد اللي عندي هو AKIADW6ET32CDXSEF6Y3 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "الرقم القومي للمريض 3000 8041 9611 25", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone 015-2050-6149", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 71}]}
+{"text": "Here is my config: sk-88rcSxnCC8p2xgRxI5Pwdzrm9h820DfQ", "entities": [{"type": "SECRET", "start": 19, "end": 54}]}
+{"text": "الإعداد اللي عندي هو كلمة السر: STFuEwJ77 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "الرقم القومي للمريض 3051 0231 3752 65", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "محمود حسن ونور محمد حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 9}, {"type": "PERSON", "start": 11, "end": 19}]}
+{"text": "Order number 123456789012 shipped yesterday", "entities": []}
+{"text": "حسابي البنكي EG152697311219656523413899940 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "الرقم القومي للمريض 3000 9142 7882 63", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "الموظفة ياسين السيد محمد رقمها ٠١٢٩٦٦٣١٩٣١ وإيميلها omar.hassan@gmail.com", "entities": [{"type": "PERSON", "start": 8, "end": 24}, {"type": "PHONE", "start": 31, "end": 42}, {"type": "EMAIL", "start": 52, "end": 73}]}
+{"text": "تم التحويل على البطاقة 5442-2096-9029-5938 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "كلمني على 01154083866 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "Please summarize the complaint from Mona Ali, phone ٠١١١٤٦٥٨٤٠٤", "entities": [{"type": "PERSON", "start": 36, "end": 44}, {"type": "PHONE", "start": 52, "end": 63}]}
+{"text": "الإعداد اللي عندي هو sk-ECvl9dq83Eh0ezFeKORdjjZK8tfphJWA وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "خالد حسن وميرنا عبدالله حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 8}, {"type": "PERSON", "start": 10, "end": 23}]}
+{"text": "كلمني على 012-6258-8153 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "My card number is 5099-7700-8860-0845 and my IBAN is EG234086211823398454615679334", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "ابعت الرد على nour83@yahoo.com وخلي عمر عبدالعزيز عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 30}, {"type": "PERSON", "start": 36, "end": 59}]}
+{"text": "الرقم القومي للمريض 30409231867737", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "الإعداد اللي عندي هو sk-GMBgYSh2PP4XJU3nBC4oAv0DzAUguBuQ وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone ٠١٠٠٨٥٨٩٩٤٤", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "Here is my config: password: iNBOBzB9Ey", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "Here is my config: password: fryiAmP4ZH", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "بيانات العميل: مازن علي إبراهيم - 3010 4280 7647 52 - omar.hassan4@gmail.com", "entities": [{"type": "PERSON", "start": 15, "end": 31}, {"type": "NID", "start": 34, "end": 51}, {"type": "EMAIL", "start": 54, "end": 76}]}
+{"text": "Please summarize the complaint from Ahmed Mohamed, phone 012 3114 2626", "entities": [{"type": "PERSON", "start": 36, "end": 49}, {"type": "PHONE", "start": 57, "end": 70}]}
+{"text": "المواطن نيرة سليمان بيشتكي من تأخر الطلب، كلمه على 01030673830", "entities": [{"type": "PERSON", "start": 8, "end": 19}, {"type": "PHONE", "start": 51, "end": 62}]}
+{"text": "ابعت الرد على nour@gmail.com وخلي ريم حسن يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 28}, {"type": "PERSON", "start": 34, "end": 41}]}
+{"text": "ابعت الرد على khaled@outlook.com وخلي لمياء محمد يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 32}, {"type": "PERSON", "start": 38, "end": 48}]}
+{"text": "الرقم القومي للمريض 30005230657473", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "Here is my config: sk-wIyg1EY3KPWRokCeZ2csbuq8gevk4ykU", "entities": [{"type": "SECRET", "start": 19, "end": 54}]}
+{"text": "الإعداد اللي عندي هو sk-hic8ctFhgp4IiyDxQ8VS8IALVUj4APg1 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "حسابي البنكي EG343749894134352408240084271 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "Send the invoice to mona@gmail.com for Sara Ibrahim", "entities": [{"type": "EMAIL", "start": 20, "end": 34}, {"type": "PERSON", "start": 39, "end": 51}]}
+{"text": "بيانات العميل: جيهان عبدالله عبدالله - 2760 8042 8572 62 - khaled769@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 36}, {"type": "NID", "start": 39, "end": 56}, {"type": "EMAIL", "start": 59, "end": 83}]}
+{"text": "الموظفة بهاء حسن رقمها 015-5469-1373 وإيميلها nour850@yahoo.com", "entities": [{"type": "PERSON", "start": 8, "end": 16}, {"type": "PHONE", "start": 23, "end": 36}, {"type": "EMAIL", "start": 46, "end": 63}]}
+{"text": "رقم الشحنة 123456789012 وصل المخزن", "entities": []}
+{"text": "الإعداد اللي عندي هو sk-kDa9U4UqGWlG6g3Ot1OGMmjxWkI9X7H6 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "منى علي وبسمة فتحي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 7}, {"type": "PERSON", "start": 9, "end": 18}]}
+{"text": "ابعت الرد على khaled01@outlook.com وخلي بهاء علي يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 34}, {"type": "PERSON", "start": 40, "end": 48}]}
+{"text": "حلل شكوى ميرنا سليمان، رقمه القومي 2551 1140 9720 46، وتليفونه 011-7556-4641", "entities": [{"type": "PERSON", "start": 9, "end": 21}, {"type": "NID", "start": 35, "end": 52}, {"type": "PHONE", "start": 63, "end": 76}]}
+{"text": "بيانات العميل: لمياء عبدالعزيز - 30806123044431 - omar.hassan@yahoo.com", "entities": [{"type": "PERSON", "start": 15, "end": 30}, {"type": "NID", "start": 33, "end": 47}, {"type": "EMAIL", "start": 50, "end": 71}]}
+{"text": "الموظفة لمياء إبراهيم رقمها ٠١١٦٣٨٥٤٦٧٨ وإيميلها omar.hassan45@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 21}, {"type": "PHONE", "start": 28, "end": 39}, {"type": "EMAIL", "start": 49, "end": 74}]}
+{"text": "كلمني على +201142836440 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "حلل شكوى نور مصطفى عبدالله، رقمه القومي 30301080617182، وتليفونه ٠١٥٨٢٤٨٩٦٣٨", "entities": [{"type": "PERSON", "start": 9, "end": 26}, {"type": "NID", "start": 40, "end": 54}, {"type": "PHONE", "start": 65, "end": 76}]}
+{"text": "Please summarize the complaint from Omar Hassan, phone 01090974395", "entities": [{"type": "PERSON", "start": 36, "end": 47}, {"type": "PHONE", "start": 55, "end": 66}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "ابعت الرد على khaled18@gmail.com وخلي حمزة إبراهيم يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 32}, {"type": "PERSON", "start": 38, "end": 50}]}
+{"text": "الإعداد اللي عندي هو كلمة السر: XiWqsuhaF وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "تم التحويل على البطاقة 5758416169284511 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 39}]}
+{"text": "المواطن عمر مصطفى بيشتكي من تأخر الطلب، كلمه على 010 6846 0223", "entities": [{"type": "PERSON", "start": 8, "end": 17}, {"type": "PHONE", "start": 49, "end": 62}]}
+{"text": "ابعت الرد على nour329@company.com.eg وخلي نور علي عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 36}, {"type": "PERSON", "start": 42, "end": 59}]}
+{"text": "اسمه بسمة إبراهيم وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 17}]}
+{"text": "Please summarize the complaint from Mona Ali, phone +201502895171", "entities": [{"type": "PERSON", "start": 36, "end": 44}, {"type": "PHONE", "start": 52, "end": 65}]}
+{"text": "Here is my config: كلمة السر: uyr0Yzxh7", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "الإعداد اللي عندي هو كلمة السر: DxLFXXmU5 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "حلل شكوى إبراهيم فتحي، رقمه القومي 2551 0202 0883 75، وتليفونه ٠١٠٣٧٥٨٩٩٧٥", "entities": [{"type": "PERSON", "start": 9, "end": 21}, {"type": "NID", "start": 35, "end": 52}, {"type": "PHONE", "start": 63, "end": 74}]}
+{"text": "تم التحويل على البطاقة 4219-6937-9237-4747 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "Here is my config: password: KhrXI0xI0W", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "Send the invoice to ahmed97@company.com.eg for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 42}, {"type": "PERSON", "start": 47, "end": 60}]}
+{"text": "الإعداد اللي عندي هو sk-oIpt9ZYE51mxR8KCDXsXyGHA9k0mZMi3 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "رقم الطلب 1234567890 بتاع الشحنة", "entities": []}
+{"text": "المبلغ المطلوب 5000 جنيه والباقي 12000", "entities": []}
+{"text": "مازن علي فتحي وأحمد إبراهيم علي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 13}, {"type": "PERSON", "start": 15, "end": 31}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "الموظفة بسمة السيد رقمها 012 0858 8770 وإيميلها nour5@gmail.com", "entities": [{"type": "PERSON", "start": 8, "end": 18}, {"type": "PHONE", "start": 25, "end": 38}, {"type": "EMAIL", "start": 48, "end": 63}]}
+{"text": "كريم السيد ويوسف عبدالعزيز حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 10}, {"type": "PERSON", "start": 12, "end": 26}]}
+{"text": "رقم الطلب 1234567890 بتاع الشحنة", "entities": []}
+{"text": "اسمه أحمد فتحي وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 14}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "محمود مصطفى وبسمة علي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 11}, {"type": "PERSON", "start": 13, "end": 21}]}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone 01248709986", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 69}]}
+{"text": "الاجتماع يوم 20 يناير 2024 الساعة 10", "entities": []}
+{"text": "كلمني على 015 3875 7177 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "الموظفة إيمان عبدالله رقمها 011 4991 2513 وإيميلها ahmed5@yahoo.com", "entities": [{"type": "PERSON", "start": 8, "end": 21}, {"type": "PHONE", "start": 28, "end": 41}, {"type": "EMAIL", "start": 51, "end": 67}]}
+{"text": "Order number 123456789012 shipped yesterday", "entities": []}
+{"text": "الطقس النهاردة حلو ونور الشمس جميلة", "entities": []}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "ريم فتحي وميرنا فتحي حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 8}, {"type": "PERSON", "start": 10, "end": 20}]}
+{"text": "حسابي البنكي EG660756263689702838578652785 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "My card number is 5625-7532-6033-2307 and my IBAN is EG318215064890901001676184723", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "حلل شكوى شروق عبدالله إبراهيم، رقمه القومي 30406091880831، وتليفونه 015 7837 7701", "entities": [{"type": "PERSON", "start": 9, "end": 29}, {"type": "NID", "start": 43, "end": 57}, {"type": "PHONE", "start": 68, "end": 81}]}
+{"text": "اكتبلي ملخص عن تاريخ مصر القديمة", "entities": []}
+{"text": "الرقم القومي للمريض 30511250401701", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "Here is my config: AKIAAF3WE8ZN1N5RUSV9", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "ابعت الرد على khaled0@yahoo.com وخلي نيرة مصطفى يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 31}, {"type": "PERSON", "start": 37, "end": 47}]}
+{"text": "الموظفة ياسين عبدالعزيز رقمها ٠١٠٣٣٦١٣٨٦١ وإيميلها nour0@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 23}, {"type": "PHONE", "start": 30, "end": 41}, {"type": "EMAIL", "start": 51, "end": 68}]}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "نص عادي مفيهوش حاجة", "entities": []}
+{"text": "اسمه بهاء محمد عبدالله وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 22}]}
+{"text": "My card number is 5687833918785190 and my IBAN is EG04 0883 9822 5871 3971 8707 2867 9", "entities": [{"type": "CARD", "start": 18, "end": 34}, {"type": "IBAN", "start": 50, "end": 86}]}
+{"text": "Send the invoice to omar.hassan0@outlook.com for Mona Ali", "entities": [{"type": "EMAIL", "start": 20, "end": 44}, {"type": "PERSON", "start": 49, "end": 57}]}
+{"text": "المواطن مازن عبدالعزيز بيشتكي من تأخر الطلب، كلمه على ٠١٥٧٠٣٤٨٢٤٧", "entities": [{"type": "PERSON", "start": 8, "end": 22}, {"type": "PHONE", "start": 54, "end": 65}]}
+{"text": "بيانات العميل: يوسف سليمان - 30601102761839 - nour224@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 26}, {"type": "NID", "start": 29, "end": 43}, {"type": "EMAIL", "start": 46, "end": 68}]}
+{"text": "رقم الطلب 1234567890 بتاع الشحنة", "entities": []}
+{"text": "بيانات العميل: تامر إبراهيم - 30807201032260 - nour63@company.com.eg", "entities": [{"type": "PERSON", "start": 15, "end": 27}, {"type": "NID", "start": 30, "end": 44}, {"type": "EMAIL", "start": 47, "end": 68}]}
+{"text": "كلمني على 01126752895 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "حسابي البنكي EG65 1032 4171 4677 4186 2565 2704 7 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "اسمه شروق فتحي مصطفى وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 20}]}
+{"text": "الإعداد اللي عندي هو password: roIskXDKVX وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "حلل شكوى سارة فتحي، رقمه القومي 3091 0230 9618 91، وتليفونه 010 1739 3483", "entities": [{"type": "PERSON", "start": 9, "end": 18}, {"type": "NID", "start": 32, "end": 49}, {"type": "PHONE", "start": 60, "end": 73}]}
+{"text": "تم التحويل على البطاقة 4170 4303 0548 6875 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "كلمني على 01142786801 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "حسابي البنكي EG859690784473647102767735925 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "بيانات العميل: وليد سليمان - 3040 5191 8812 60 - nour2@yahoo.com", "entities": [{"type": "PERSON", "start": 15, "end": 26}, {"type": "NID", "start": 29, "end": 46}, {"type": "EMAIL", "start": 49, "end": 64}]}
+{"text": "Here is my config: password: RXia9J7kAP", "entities": [{"type": "SECRET", "start": 19, "end": 39}]}
+{"text": "Send the invoice to sara_ali@outlook.com for Sara Ibrahim", "entities": [{"type": "EMAIL", "start": 20, "end": 40}, {"type": "PERSON", "start": 45, "end": 57}]}
+{"text": "الرقم القومي للمريض 2921 0242 2900 10", "entities": [{"type": "NID", "start": 20, "end": 37}]}
+{"text": "المواطن ميرنا عبدالله بيشتكي من تأخر الطلب، كلمه على 010-7450-5444", "entities": [{"type": "PERSON", "start": 8, "end": 21}, {"type": "PHONE", "start": 53, "end": 66}]}
+{"text": "Here is my config: sk-6JhqXqTCnNsS6Fmhi2eCl5TCfZR92uQw", "entities": [{"type": "SECRET", "start": 19, "end": 54}]}
+{"text": "حلل شكوى سارة علي، رقمه القومي 26602041044935، وتليفونه 01287401640", "entities": [{"type": "PERSON", "start": 9, "end": 17}, {"type": "NID", "start": 31, "end": 45}, {"type": "PHONE", "start": 56, "end": 67}]}
+{"text": "Send the invoice to nour721@gmail.com for Mona Ali", "entities": [{"type": "EMAIL", "start": 20, "end": 37}, {"type": "PERSON", "start": 42, "end": 50}]}
+{"text": "Send the invoice to mona9@gmail.com for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 35}, {"type": "PERSON", "start": 40, "end": 53}]}
+{"text": "ابعت الرد على sara_ali@company.com.eg وخلي كريم عبدالعزيز عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 37}, {"type": "PERSON", "start": 43, "end": 67}]}
+{"text": "عايز أعرف الفرق بين الخطة الشهرية والسنوية", "entities": []}
+{"text": "اسمه محمود عبدالله وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 18}]}
+{"text": "الرقم القومي للمريض 30110221054629", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "اسمه ميرنا سليمان إبراهيم وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 25}]}
+{"text": "مصطفى إبراهيم وبسمة عبدالله حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 13}, {"type": "PERSON", "start": 15, "end": 27}]}
+{"text": "كلمني على +201112499856 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 23}]}
+{"text": "حلل شكوى محمود عبدالعزيز عبدالله، رقمه القومي 27009070203354، وتليفونه 010 6894 2104", "entities": [{"type": "PERSON", "start": 9, "end": 32}, {"type": "NID", "start": 46, "end": 60}, {"type": "PHONE", "start": 71, "end": 84}]}
+{"text": "بيانات العميل: عمر فتحي - ٢٧٧٠١١٥٠٥٥٩٦٩٦ - omar.hassan@outlook.com", "entities": [{"type": "PERSON", "start": 15, "end": 23}, {"type": "NID", "start": 26, "end": 40}, {"type": "EMAIL", "start": 43, "end": 66}]}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "My card number is 5470 1687 3395 0047 and my IBAN is EG289748016245650609835841687", "entities": [{"type": "CARD", "start": 18, "end": 37}, {"type": "IBAN", "start": 53, "end": 82}]}
+{"text": "تم التحويل على البطاقة 4276483503056415 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 39}]}
+{"text": "الإعداد اللي عندي هو AKIA0ZYCMVO84W6TK9LS وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "المواطن نيرة عبدالعزيز فتحي بيشتكي من تأخر الطلب، كلمه على 01034074517", "entities": [{"type": "PERSON", "start": 8, "end": 27}, {"type": "PHONE", "start": 59, "end": 70}]}
+{"text": "ابعت الرد على omar.hassan@yahoo.com وخلي عبدالرحمن عبدالعزيز يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 35}, {"type": "PERSON", "start": 41, "end": 60}]}
+{"text": "الإعداد اللي عندي هو sk-eRo7qYYOLQZ7mBhIoPj6r0jedkYtMV0K وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 56}]}
+{"text": "كلمني على 01150074329 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "الموظفة لمياء علي رقمها 01254443283 وإيميلها khaled520@outlook.com", "entities": [{"type": "PERSON", "start": 8, "end": 17}, {"type": "PHONE", "start": 24, "end": 35}, {"type": "EMAIL", "start": 45, "end": 66}]}
+{"text": "ابعت الرد على khaled@company.com.eg وخلي لمياء محمد يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 35}, {"type": "PERSON", "start": 41, "end": 51}]}
+{"text": "حسابي البنكي EG789005329318393352904228421 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 42}]}
+{"text": "اسمه بهاء السيد وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 15}]}
+{"text": "Please write a summary of the quarterly report", "entities": []}
+{"text": "الرقم القومي للمريض 28101122478291", "entities": [{"type": "NID", "start": 20, "end": 34}]}
+{"text": "Send the invoice to omar.hassan7@gmail.com for Ahmed Mohamed", "entities": [{"type": "EMAIL", "start": 20, "end": 42}, {"type": "PERSON", "start": 47, "end": 60}]}
+{"text": "اسمه تامر سليمان وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 16}]}
+{"text": "حسابي البنكي EG45 2731 5851 4936 8998 0940 2445 5 ومحتاج أراجع الحركات", "entities": [{"type": "IBAN", "start": 13, "end": 49}]}
+{"text": "The meeting is at 5 pm in room 12", "entities": []}
+{"text": "اسمه وليد سليمان علي وساكن في القاهرة", "entities": [{"type": "PERSON", "start": 5, "end": 20}]}
+{"text": "Send the invoice to khaled829@yahoo.com for Mona Ali", "entities": [{"type": "EMAIL", "start": 20, "end": 39}, {"type": "PERSON", "start": 44, "end": 52}]}
+{"text": "الإعداد اللي عندي هو AKIA9NMNSWIL68UHW940 وعايز أدخل", "entities": [{"type": "SECRET", "start": 21, "end": 41}]}
+{"text": "وليد حسن سليمان وسيف إبراهيم عبدالعزيز حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 15}, {"type": "PERSON", "start": 17, "end": 38}]}
+{"text": "المواطن محمد السيد مصطفى بيشتكي من تأخر الطلب، كلمه على 01159893347", "entities": [{"type": "PERSON", "start": 8, "end": 24}, {"type": "PHONE", "start": 56, "end": 67}]}
+{"text": "ابعت الرد على sara_ali43@company.com.eg وخلي سيف السيد يراجعه", "entities": [{"type": "EMAIL", "start": 14, "end": 39}, {"type": "PERSON", "start": 45, "end": 54}]}
+{"text": "كلمني على 01247962757 لو في أي حاجة", "entities": [{"type": "PHONE", "start": 10, "end": 21}]}
+{"text": "المبلغ المطلوب 5000 جنيه والباقي 12000", "entities": []}
+{"text": "عمر مصطفى وآية محمد حضروا الاجتماع", "entities": [{"type": "PERSON", "start": 0, "end": 9}, {"type": "PERSON", "start": 11, "end": 19}]}
+{"text": "تم التحويل على البطاقة 4268-4245-0882-1007 النهاردة", "entities": [{"type": "CARD", "start": 23, "end": 42}]}
+{"text": "Please summarize the complaint from Khaled Mostafa, phone 01043536822", "entities": [{"type": "PERSON", "start": 36, "end": 50}, {"type": "PHONE", "start": 58, "end": 69}]}

@@ -1,0 +1,5 @@
+{"text": "بعتلي الأستاذ هشام الملف وطلب أراجعه قبل الخميس", "entities": [{"type": "PERSON", "start": 14, "end": 18}]}
+{"text": "كلمي أم محمد على 0100 555 6677 لو وصلتي", "entities": [{"type": "PERSON", "start": 5, "end": 12}, {"type": "PHONE", "start": 17, "end": 30}]}
+{"text": "الشحنة رقم 12345678901234 وصلت الميناء", "entities": []}
+{"text": "حسن الأداء ده اللي خلى المدير يرقيه", "entities": []}
+{"text": "Dr. Mahmoud Abdelrahman approved the request, contact m.abdelrahman@example.com", "entities": [{"type": "PERSON", "start": 4, "end": 23}, {"type": "EMAIL", "start": 54, "end": 79}]}

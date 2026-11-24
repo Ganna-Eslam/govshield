@@ -3,11 +3,13 @@ import re
 
 from base import (Detection, Recognizer, RegexRecognizer,
                   egypt_nid_ok, luhn_ok, iban_ok)
+from ner import NerRecognizer, AR_MODEL, EN_MODEL, LATIN_WORD
 
 # تحويل الأرقام العربية للإنجليزية (نفس الطول، فالـpositions تفضل صح)
 AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
-# تطبيع الحروف (نفس الطول). مقصود إن ى متتغيرش عشان "على" متبقاش "علي"
-AR_LETTERS = str.maketrans("أإآة", "اايه")
+# تطبيع الحروف: أ إ آ -> ا ، ة -> ه (نفس الطول). مقصود إن ى متتغيرش عشان "على" متبقاش "علي"
+# مكتوبة بأكواد Unicode عشان محدش يلخبط في الاتجاه وقت النسخ
+AR_LETTERS = str.maketrans("\u0623\u0625\u0622\u0629", "\u0627\u0627\u0627\u0647")
 
 SEP = r"[\s\-]?"
 
@@ -29,6 +31,8 @@ TITLES_RAW = """
 الدكتور الدكتورة دكتور دكتورة الحاج الحاجة المواطن المواطنة الموظف الموظفة
 المريض المريضة العميل العميلة اسمه اسمها
 """
+# الكنى: أم/أبو/ابن/بنت + اسم = اسم شخص كامل
+KUNYA_RAW = "ام ابو ابن بنت"
 
 
 def normalize(text: str) -> str:
@@ -41,6 +45,7 @@ def norm_ar(s: str) -> str:
 
 FIRST_NAMES = {norm_ar(w) for w in FIRST_NAMES_RAW.split()}
 TITLES = {norm_ar(w) for w in TITLES_RAW.split()}
+KUNYA = {norm_ar(w) for w in KUNYA_RAW.split()}
 WORD = re.compile(r"[\u0621-\u064A]+")
 
 
@@ -56,14 +61,29 @@ class NameRecognizer(Recognizer):
         words = []
         for m in WORD.finditer(text):
             s, e, w = m.start(), m.end(), norm_ar(m.group())
-            # واو العطف اللازقة: "وأحمد" -> "أحمد"
-            if w not in FIRST_NAMES and w.startswith("و") and w[1:] in FIRST_NAMES:
+            # واو العطف اللازقة: "وأحمد" -> "أحمد" و"وأبو" -> "أبو"
+            if (w not in FIRST_NAMES and w not in KUNYA and w.startswith("\u0648")
+                    and (w[1:] in FIRST_NAMES or w[1:] in KUNYA)):
                 s, w = s + 1, w[1:]
             words.append((s, e, w))
 
         results = []
         i = 0
         while i < len(words):
+            # كنية: أم/أبو/ابن/بنت + اسم
+            if (words[i][2] in KUNYA and i + 1 < len(words)
+                    and words[i + 1][2] in FIRST_NAMES
+                    and _adjacent(text, words[i][1], words[i + 1][0])):
+                j = i + 1
+                while (j + 1 < len(words) and j - i < 3
+                       and words[j + 1][2] in FIRST_NAMES
+                       and _adjacent(text, words[j][1], words[j + 1][0])):
+                    j += 1
+                s, e = words[i][0], words[j][1]
+                results.append(Detection("PERSON", s, e, text[s:e], 0.85, "dictionary"))
+                i = j + 1
+                continue
+
             if words[i][2] in FIRST_NAMES:
                 j = i
                 while (j + 1 < len(words) and j - i < 3
@@ -92,6 +112,8 @@ REGISTRY: list[Recognizer] = [
                     pack="core", confidence=0.95),
     RegexRecognizer("EMAIL", r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+", pack="core", confidence=0.99),
     NameRecognizer(),
+    NerRecognizer(AR_MODEL, "ner-ar"),
+    NerRecognizer(EN_MODEL, "ner-en", only_if=LATIN_WORD),
     RegexRecognizer("SECRET", r"-----BEGIN [A-Z ]*PRIVATE KEY-----", pack="core", confidence=0.99),
     RegexRecognizer("SECRET", r"\bAKIA[0-9A-Z]{16}\b", pack="core", confidence=0.99),
     RegexRecognizer("SECRET", r"\bsk-[A-Za-z0-9_\-]{20,}", pack="core", confidence=0.95),
@@ -114,11 +136,20 @@ def detect(text: str) -> list[Detection]:
         if r.pack in ENABLED_PACKS:
             found.extend(r.find(text, norm))
 
-    # شيل التداخل: الأطول أولاً، وعند التساوي الأعلى ثقة
+    # دمج: المتداخل بيتدمج لو نفس النوع، والأسماء الملتصقة بتتدمج لاسم واحد.
+    # لو النوع مختلف الأطول والأعلى ثقة بيكسب.
     found.sort(key=lambda d: (d.start, -(d.end - d.start), -d.confidence))
-    result, last_end = [], -1
+    result = []
     for d in found:
-        if d.start >= last_end:
-            result.append(d)
-            last_end = d.end
+        if result:
+            last = result[-1]
+            same = d.type == last.type
+            touching = same and d.type == "PERSON" and d.start == last.end
+            if d.start < last.end or touching:
+                if same and d.end > last.end:
+                    last.end = d.end
+                    last.value = text[last.start:last.end]
+                    last.confidence = max(last.confidence, d.confidence)
+                continue
+        result.append(d)
     return result

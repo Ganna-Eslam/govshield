@@ -1,0 +1,8 @@
+# سطر لكل جملة. الحاجة الحساسة بتتكتب {النوع|القيمة}
+# الأنواع: PERSON NID PHONE EMAIL CARD IBAN SECRET
+# في PERSON اكتبي الاسم بس من غير اللقب. في SECRET اكتبي الجملة كلها (password: abc)
+بعتلي الأستاذ {PERSON|هشام} الملف وطلب أراجعه قبل الخميس
+كلمي {PERSON|أم محمد} على {PHONE|0100 555 6677} لو وصلتي
+الشحنة رقم 12345678901234 وصلت الميناء
+حسن الأداء ده اللي خلى المدير يرقيه
+Dr. {PERSON|Mahmoud Abdelrahman} approved the request, contact {EMAIL|m.abdelrahman@example.com}
