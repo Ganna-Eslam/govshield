@@ -25,3 +25,8 @@ samples/
 *.map.enc
 *.masked.*
 *.restored.*
+
+
+.venv/
+.env
+*.pyc
