@@ -30,6 +30,7 @@ from validate import validate       # noqa: E402
 
 TOKEN_RE = re.compile(r"\[\[[A-Z]+_[0-9A-F]{8}\]\]")
 NULLISH = {"", "-", "--", "n/a", "na", "null", "none", "nan", "لا يوجد", "لايوجد"}
+_OCR_EXTS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".pdf"}
 VALID_TYPES = {"PERSON", "NID", "PHONE", "EMAIL", "CARD", "IBAN",
                "ADDRESS", "PASSWORD", "SKIP"}
 
@@ -319,6 +320,10 @@ def load_mapping(map_file, key_file):
 
 # ---------------------------------------------------------------- public API
 def mask_file(src, dst, map_file=None, key_file=None, header_row=1, overrides=None):
+    if os.path.splitext(src)[1].lower() in _OCR_EXTS:
+        # images / scanned PDFs: OCR + irreversible redaction, no mapping or key file
+        from ocr_engine import protect_file
+        return protect_file(src, dst)
     map_file = map_file or dst + ".map.enc"
     key_file = key_file or dst + ".key"
     overrides = {_hnorm(k): v.upper() for k, v in (overrides or {}).items()}
@@ -334,6 +339,8 @@ def mask_file(src, dst, map_file=None, key_file=None, header_row=1, overrides=No
 
 
 def unmask_file(src, dst, map_file=None, key_file=None, header_row=1):
+    if os.path.splitext(src)[1].lower() in _OCR_EXTS:
+        raise ValueError("Images and scanned PDFs are masked irreversibly; there is nothing to restore")
     map_file = map_file or src + ".map.enc"
     key_file = key_file or src + ".key"
     mapping = load_mapping(map_file, key_file)
