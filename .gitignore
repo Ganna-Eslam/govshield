@@ -1,27 +1,18 @@
-# __pycache__/
-# *.pyc
-# .venv/
-# .env
-# node_modules/
-# *.db
-# vault/
-
-
-# samples/
-# *.key
-# *.map.enc
-# *.masked.*
-# *.restored.*
-
-
-
+# Python
 __pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
 node_modules/
+
+# Local data and secrets
 *.db
 vault/
-
 samples/
 *.key
 *.map.enc
 *.masked.*
 *.restored.*
+.streamlit/secrets.toml
