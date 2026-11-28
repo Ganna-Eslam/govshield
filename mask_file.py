@@ -3,6 +3,7 @@ CLI for masking / de-masking CSV and XLSX files.
 
   python mask_file.py mask   data.csv
   python mask_file.py unmask data.masked.csv
+  python mask_file.py mask   scan.png      (OCR, irreversible)
 """
 import argparse
 import os
@@ -13,7 +14,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 def main():
-    p = argparse.ArgumentParser(description="GOVSHIELD file masking")
+    p = argparse.ArgumentParser(description="GOVSHIELD file masking (CSV/XLSX/TXT, images and scanned PDF via OCR)")
     p.add_argument("action", choices=["mask", "unmask"])
     p.add_argument("input")
     p.add_argument("-o", "--output")
@@ -36,19 +37,28 @@ def main():
     if a.action == "mask":
         out = a.output or f"{stem}.masked{ext}"
         overrides = dict(c.rsplit("=", 1) for c in a.col)
-        r = mask_file(a.input, out, a.map_file, a.key_file, a.header_row, overrides)
+        try:
+            r = mask_file(a.input, out, a.map_file, a.key_file, a.header_row, overrides)
+        except Exception as e:
+            if type(e).__name__ == "OcrBlocked":
+                sys.exit(f"BLOCKED: {e}. No output file was produced.")
+            raise
         print(f"Masked file : {r['output']}")
-        print(f"Mapping     : {r['map_file']}  (encrypted)")
-        print(f"Key         : {r['key_file']}")
-        print(f"Unique tokens: {r['unique_tokens']}\n")
+        if r.get("reversible") is False:
+            print("Image/scanned PDF: covered irreversibly (no mapping, nothing to restore)\n")
+        else:
+            print(f"Mapping     : {r['map_file']}  (encrypted)")
+            print(f"Key         : {r['key_file']}")
+            print(f"Unique tokens: {r['unique_tokens']}\n")
         print(f"{'SHEET':12} {'COLUMN':25} {'TYPE':10} COUNT")
         for k, n in sorted(r["stats"].items(), key=lambda x: str(x[0])):
             if len(k) == 3:
                 print(f"{str(k[0]):12} {str(k[1]):25} {k[2]:10} {n}")
             else:
                 print(f"{k[0]}: {n}")
-        print("\nWARNING: keep the key + mapping files private and NEVER upload them "
-              "with the masked file.")
+        if r.get("reversible") is not False:
+            print("\nWARNING: keep the key + mapping files private and NEVER upload them "
+                  "with the masked file.")
     else:
         base = stem[:-7] if stem.endswith(".masked") else stem
         out = a.output or f"{base}.restored{ext}"

@@ -442,6 +442,60 @@ def tab_file():
         st.download_button("Restored file", out["restored"], f"{stem}.restored{out['ext']}", MIME[out["ext"]])
 
 
+# ================================================================== UI: images / scanned PDF tab
+def tab_image():
+    st.subheader("Images and scanned PDF: OCR, then cover sensitive text")
+    st.caption("Masking is irreversible: sensitive words are painted over, there is no mapping and "
+               "nothing to restore. If the file cannot be read or verified it is blocked.")
+    import ocr_engine
+    ok, reason = ocr_engine.ocr_ready()
+    if not ok:
+        st.error(f"OCR is not available: {reason}")
+        return
+    up = st.file_uploader("Upload an image or a scanned PDF", type=["png", "jpg", "jpeg", "bmp", "tif", "tiff", "pdf"],
+                          key="ocr_upload")
+    if up is None:
+        st.info("Upload a file to start.")
+        return
+    ext = Path(up.name).suffix.lower()
+    data = up.getvalue()
+    if ext != ".pdf":
+        st.markdown("#### Original (local preview)")
+        st.image(data)
+    if st.button("Protect file", type="primary", key="ocr_go"):
+        with st.spinner("Running OCR and verifying the result..."):
+            with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmp:
+                src, dst = os.path.join(tmp, "input" + ext), os.path.join(tmp, "protected" + ext)
+                with open(src, "wb") as f:
+                    f.write(data)
+                try:
+                    r = ocr_engine.protect_file(src, dst)
+                    with open(dst, "rb") as f:
+                        st.session_state.ocr_result = {"bytes": f.read(), "stats": r["stats"],
+                                                       "ext": ext, "stem": Path(up.name).stem}
+                except ocr_engine.OcrBlocked as e:
+                    st.session_state.pop("ocr_result", None)
+                    st.error(f"Blocked: {e}. Nothing was produced.")
+                except Exception:
+                    st.session_state.pop("ocr_result", None)
+                    st.error("Blocked: protection failed. Nothing was produced.")
+    res = st.session_state.get("ocr_result")
+    if res and res["ext"] == ext:
+        n = sum(res["stats"].values())
+        st.success(f"Done. {n} item(s) covered.")
+        rows = {}
+        for (page, _, t), c in res["stats"].items():
+            rows[(page, t)] = rows.get((page, t), 0) + c
+        if rows:
+            st.dataframe(pd.DataFrame([{"Page": k[0], "Type": k[1], "Count": v} for k, v in rows.items()]))
+        if ext != ".pdf":
+            st.markdown("#### Protected (safe to share)")
+            st.image(res["bytes"])
+        mime = {".pdf": "application/pdf", ".png": "image/png", ".jpg": "image/jpeg",
+                ".jpeg": "image/jpeg", ".bmp": "image/bmp", ".tif": "image/tiff", ".tiff": "image/tiff"}[ext]
+        st.download_button("Download protected file", res["bytes"], f"{res['stem']}.masked{ext}", mime)
+
+
 # ================================================================== UI: about tab
 def tab_about():
     st.markdown("""
@@ -484,11 +538,13 @@ def main():
         st.divider()
         st.button("Clear session", on_click=_clear_session)
 
-    t1, t2, t3 = st.tabs(["📝 Text", "📁 CSV / Excel", "ℹ️ About"])
+    t1, t2, t4, t3 = st.tabs(["📝 Text", "📁 CSV / Excel", "🖼️ Images / PDF", "ℹ️ About"])
     with t1:
         tab_text()
     with t2:
         tab_file()
+    with t4:
+        tab_image()
     with t3:
         tab_about()
 
